@@ -1,0 +1,532 @@
+/* ----Importação de fonte ----*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* ---- Reset ----*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    background: transparent;
+    width: auto;
+
+}
+
+/* ---- Padrão ----*/
+
+body {
+    margin: auto;
+    background: #F9F9F9;
+
+}
+
+h1 {
+
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ---- Header ----*/
+
+.navbar {
+
+    width: 100%;
+    height: 56px;
+    padding: 10px, 24px, 10px, 24px;
+
+    background-color: #ffffff;
+
+    
+
+    display: flex;
+    flex: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    
+}
+
+/* ---- Aside 1 - nav_logo ----*/
+.nav_logo {
+
+    width: 146px;
+    height: 24px;
+    
+    display:flex;
+    flex: row wrap;
+    justify-content: space-between;
+    
+    margin-left: 20px;
+    
+}
+
+.nav_logo a { 
+
+        display: flex;
+        flex: row wrap;
+        justify-content: center;
+        align-items: center;
+ }
+
+/* ---- Aside 2 - nav_search ----*/
+.nav_search {
+    width: 404px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    border-radius: 20px;
+
+    display: flex;
+    flex: row wrap;
+}
+
+.nav_search input {
+
+    width: 348px;
+    height: 39px;
+    top: 8px;
+    left: 526px;
+    gap: 0px;
+    border-right: 1px solid #CCCCCC;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+
+
+}
+
+.nav_search_icon {
+
+    width: 55px;
+    height: 38px;
+    
+    
+
+    display: flex;
+    flex: row wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    background: #F8F8F8;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+/* ---- Aside 3 - nav_search ----*/
+
+.nav_profile {
+
+    width: 130px;
+    height: 34px;
+
+    margin-right: 20px;
+    
+    display:flex;
+    flex: row wrap;
+
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.icon_profile {
+
+    width: 34px;
+    height: 34px;
+
+    border-radius: 50% ;
+
+}
+
+
+/* ---- Main ----*/
+
+main {
+
+    width: 100%;
+
+    margin: auto;
+
+    margin-left: 78px;
+    margin-right: 78px;
+    padding-top: 20px;
+
+    display: flex;
+    flex: row wrap;
+
+}
+
+/* ---- section 1 - main_video ----*/
+
+
+.main_video {
+
+    width: 952px;
+    height: 746px;
+
+    margin-top: 26px;
+
+   
+
+}
+
+.main_video iframe {
+
+    width: 952px;
+    height: 537px;
+
+    margin-bottom: 10px;
+
+    border-radius: 10px;
+
+
+}
+
+.main_video h1 {
+
+    width: 871px;
+
+
+}
+
+/* ---- section 1 - main_video_descrition ----*/
+
+.main_video_description {
+
+    width: 100%;
+
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main_video_description a {
+
+    color: black;
+    text-decoration: none;
+
+
+}
+
+/* ---- section 1 - article > description_profile ----*/
+
+.description_profile {
+
+    
+    
+
+    display: flex;
+    flex: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+
+
+
+.description_profile div {
+
+    margin-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: start;
+
+
+} 
+
+.description_profile_img {
+
+    width: 42px;
+    height: 42px;
+
+    border-radius: 50% ;
+
+}
+
+.description_profile div > p {
+
+    font-size: 14px;
+    line-height: 16,41px;
+
+}
+
+.description_profile div > h3 {
+
+    font-size: 16px;
+
+}
+
+/* ---- section 1 - article > singu_up ----*/
+
+.sing_up {
+
+    width: 159px;
+    height: 40px;
+    
+    color: white;
+    background-color: #CC0000;
+    border: none;
+    border-radius: 2px;
+      
+}
+
+/* ---- section 1 - article > like ----*/
+
+.like {
+
+    display: flex;
+    flex: row wrap;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.like button {
+
+    margin:10px;
+    border: none; 
+}
+
+
+.like p {
+
+    font-size: 14px;
+    line-height: 16,41px;
+
+    font-weight: 600;
+
+
+}
+
+/* ---- section 1 - article > dislike ----*/
+
+.dislike {
+
+    display: flex;
+    flex: row wrap;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.dislike button {
+
+    margin:10px;
+    border: none; 
+    padding-top: 5px;
+}
+
+
+.dislike p {
+
+    font-size: 14px;
+    line-height: 16,41px;
+
+    font-weight: 600;
+
+
+}
+
+
+/* ---- section 1 - article > share ----*/
+
+
+.share {
+
+    display: flex;
+    flex: row wrap;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.share button {
+
+    margin:10px;
+    border: none; 
+    
+}
+
+
+.share p {
+
+    font-size: 14px;
+    line-height: 16,41px;
+
+    font-weight: 600;
+
+
+}
+
+
+/* ---- section 1 - article > dowload_buton ----*/
+
+.download_button {
+
+    display: flex;
+    flex: row wrap;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.download_button button {
+
+    margin:10px;
+    border: none; 
+    
+}
+
+
+.download_button p {
+
+    font-size: 14px;
+    line-height: 16,41px;
+
+    font-weight: 600;
+
+
+}
+
+/* ---- section 1 - datas_video  ----*/
+
+.datas_video  {
+
+    display: inline-block;
+   
+}
+
+/* ---- section 1 - text_description ----*/
+
+.text_description {
+
+    text-align: justify;
+
+    margin-top: 10px;
+
+}
+
+.text_description p>a {
+
+    color: black;
+    text-decoration: none;
+
+}
+
+/* ---- section 2 subs_videos-----*/
+
+.subs_videos {
+
+    display: flex;
+    flex-direction: column;
+
+
+    
+    margin-left: 45px;
+    margin-right: 20px;
+
+    justify-content: start;
+    align-items: center;
+
+
+
+    
+}
+
+.card_link {
+
+    color: black;
+    text-decoration: none;
+
+}
+
+/* ---- section 2 subs_videos cards -----*/
+
+
+
+
+.card_sub_video {
+
+    display: flex;
+    flex: row wrap;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+
+    margin-top: 15px;
+    
+
+}
+
+
+
+.img_sub_video {
+
+    
+    width: 230px;
+    height: 150px;
+    padding: 10px;
+
+    border-radius: 15px;
+
+
+}
+
+.description_sub_video {
+
+    width: 280px;
+
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    align-items: start;
+
+}
+
+.description_sub_video h3 {
+
+        font-size: 25px;
+        
+
+}
+
+.description_sub_video p {
+
+    font-size: 15px
+}
+
+
+
+/* ---- Footer ----*/
